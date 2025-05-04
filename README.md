@@ -10,4 +10,4 @@ Tanggal: 04 Mei 2025
 
 <img src="https://github.com/RizkyKhapidsyah/04--Operator-Scope/blob/master/hasil/SC.png">
 
-Lihat <target="_blank" a href="https://github.com/RizkyKhapidsyah/04--Operator-Scope/blob/master/SourceCode.cpp">Source Code.</a>
+Lihat <a href="https://github.com/RizkyKhapidsyah/04--Operator-Scope/blob/master/SourceCode.cpp" target="_blank">Source Code.</a>
