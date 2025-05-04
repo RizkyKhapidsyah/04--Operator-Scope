@@ -1,0 +1,26 @@
+Penjelasan Scope atau Ruang Lingkup
+
+Scope dalam bahasa Indonesia memiliki arti Cakupan atau Ruang lingkup. 
+Scope adalah kode sumber yang bersarang di dalam blok atau pada awal blok dan berakhir di ujung blok. 
+Kadang sifat kode sumber akan dipengaruhi oleh ruang lingkup tersebut.
+
+Sering kali pemula mengabaikan keberadaan dari ruang lingkup, hal ini sangat penting dan tidak bisa diabaikan. 
+Pemahaman mengenai ruang lingkup berguna agar saat pemanggilan identitas yang pernah anda deklarasikan, tidak menimbulkan 
+pesan error pada kompilator yang biasanya mengeluh mengenai “pencarian identitas yang dimaksud tidak ditemukan”.
+
+Dan di bawah ini merupakan contoh program yang menggambarkan bagaimana ruang lingkup pada bahasa pemrograman C++ bekerja, 
+dengan dilengkapi penjelasan yang diletakan pada fitur komentar dan mencontohkan bagaimana menggunakan deklarasi dengan benar.
+
+Peraturan dalam ruang lingkup yang perlu diperhatikan:
+Ruang lingkup bisa kita buat menggunakan sepasang tanda { dan } . 
+sepasang tanda tersebut juga biasa digunakan dalam pembuatan function, 
+class, struct dan lain sebagainya, semua yang ada dalam ruang lingkup akan disebut sebagai definisi.
+Deklarasi harus dibuat dahulu sebelum dapat digunakan.
+
+Dalam satu ruang lingkup, deklarasi tidak diperbolehkan untuk memiliki identitas yang sama
+Deklarasi yang didirikan di dalam ruang lingkup akan memiliki sifat lokal yang memiliki arti 
+hanya dapat digunakan di dalam ruang lingkup dimana deklarasi itu didirikan.
+Ruang Lingkup dimungkinkan untuk memiliki ruang lingkup di dalamya, hal itu dinamakan sebagai nested scope. 
+Deklarasi yang didirikan di ruang lingkup induk akan dapat diakses di dalam anak ruang lingkup dan bahkan bisa digantikan 
+dengan deklarasi baru yang memiliki nama yang sama di dalam anak ruang lingkup. Tapi deklarasi yang didirikan di dalam anak ruang linkup 
+tidak bisa digunakan di induk ruang lingkup.
